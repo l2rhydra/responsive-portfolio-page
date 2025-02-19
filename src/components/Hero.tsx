@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Stars } from "@react-three/drei";
 import { motion } from "framer-motion";
+import { Github, Linkedin, Mail, Terminal } from 'lucide-react';
 
 const Galaxy = () => {
   const galaxyRef = useRef();
@@ -63,6 +64,23 @@ const Hero = () => {
           Building dynamic, responsive, and visually stunning user interfaces with modern frontend technologies and a keen eye for design.
           </p>
         </motion.div>
+
+        <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: 0.6 }}
+              className="flex gap-4"
+            >
+              <a href="https://github.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <Github size={24} />
+              </a>
+              <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <Linkedin size={24} />
+              </a>
+              <a href="mailto:example@email.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+                <Mail size={24} />
+              </a>
+            </motion.div>
       </div>
     </div>
   );
