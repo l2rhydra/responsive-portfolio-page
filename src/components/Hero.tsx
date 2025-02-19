@@ -67,7 +67,7 @@ const Hero = () => {
             Front End Developer
           </h1>
           <p className="text-gray-300 text-xl mt-4">
-          Crazy about coding and always pushing the limits to create amazing things!
+            Crazy about coding and always pushing the limits to create amazing things!
           </p>
 
           {/* Social Links */}
@@ -80,7 +80,7 @@ const Hero = () => {
             <a href="https://github.com/l2rhydra" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Github size={24} />
             </a>
-            <a href="www.linkedin.com/in/hydexdev" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/hydexdev" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={24} />
             </a>
             <a href="mailto:muhammedyaseen533789@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
