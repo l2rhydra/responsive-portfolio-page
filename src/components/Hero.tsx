@@ -77,13 +77,13 @@ const Hero = () => {
             transition={{ delay: 0.6 }}
             className="flex gap-4 mt-6" // Added mt-6 to push it down
           >
-            <a href="https://github.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="https://github.com/l2rhydra" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="www.linkedin.com/in/hydexdev" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:example@email.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+            <a href="mailto:muhammedyaseen533789@gmail.com" className="text-gray-300 hover:text-blue-400 transition-colors">
               <Mail size={24} />
             </a>
           </motion.div>
