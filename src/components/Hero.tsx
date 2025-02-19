@@ -67,7 +67,7 @@ const Hero = () => {
             Front End Developer
           </h1>
           <p className="text-gray-300 text-xl mt-4">
-            Building dynamic, responsive, and visually stunning user interfaces with modern frontend technologies and a keen eye for design.
+          Crazy about coding and always pushing the limits to create amazing things!
           </p>
 
           {/* Social Links */}
