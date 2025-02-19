@@ -53,7 +53,13 @@ const Hero = () => {
         </motion.div>
 
         {/* Text Section */}
-        <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 }} className="md:ml-10 mt-6 md:mt-0 text-white">
+
+        <motion.div 
+          initial={{ opacity: 0, x: -20 }} 
+          animate={{ opacity: 1, x: 0 }} 
+          transition={{ delay: 0.3 }} 
+          className="md:ml-10 mt-6 md:mt-0 text-white"
+        >
           <h2 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-600 text-transparent bg-clip-text">
             Muhammed Yaseen
           </h2>
@@ -61,26 +67,28 @@ const Hero = () => {
             Front End Developer
           </h1>
           <p className="text-gray-300 text-xl mt-4">
-          Building dynamic, responsive, and visually stunning user interfaces with modern frontend technologies and a keen eye for design.
+            Building dynamic, responsive, and visually stunning user interfaces with modern frontend technologies and a keen eye for design.
           </p>
+
+          {/* Social Links */}
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.6 }}
+            className="flex gap-4 mt-6" // Added mt-6 to push it down
+          >
+            <a href="https://github.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+              <Github size={24} />
+            </a>
+            <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+              <Linkedin size={24} />
+            </a>
+            <a href="mailto:example@email.com" className="text-gray-300 hover:text-blue-400 transition-colors">
+              <Mail size={24} />
+            </a>
+          </motion.div>
         </motion.div>
 
-        <motion.div
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.6 }}
-              className="flex gap-4"
-            >
-              <a href="https://github.com" className="text-gray-300 hover:text-blue-400 transition-colors">
-                <Github size={24} />
-              </a>
-              <a href="https://linkedin.com" className="text-gray-300 hover:text-blue-400 transition-colors">
-                <Linkedin size={24} />
-              </a>
-              <a href="mailto:example@email.com" className="text-gray-300 hover:text-blue-400 transition-colors">
-                <Mail size={24} />
-              </a>
-            </motion.div>
       </div>
     </div>
   );
