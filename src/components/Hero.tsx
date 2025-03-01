@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="relative w-48 h-48">
             <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full animate-pulse" style={{ filter: "blur(40px)" }} />
             <img
-              src="https://media.discordapp.net/attachments/1105377358665498674/1341683701284601916/IMG_0276.jpg?ex=67b6e3d1&is=67b59251&hm=82a521d85ad51cffe58e614739036955c3fb66efff26b7b7792abb84d6e9e9fe&=&format=webp&width=334&height=350"
+              src="https://ik.imagekit.io/boqjrvwdo/IMG_0276.jpg?updatedAt=1740825088504"
               alt="Profile"
               className="relative w-48 h-48 rounded-full object-cover border-4 border-purple-500/30"
             />
